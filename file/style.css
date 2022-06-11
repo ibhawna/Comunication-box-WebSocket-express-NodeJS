@@ -1,0 +1,30 @@
+#box {
+  width: 100%;
+  min-height: 70vh;
+  background: lightblue;
+}
+
+#msg-box {
+    display: block;
+  min-height: 10vh;
+  width: 90vw;
+  font-size: 20px;
+  margin: 10px 20px 10px 20px;
+}
+
+.created-box{
+    display: flex;
+}    
+
+.sender{
+    background: black;
+    color: white;
+    margin-right: 10px;
+    flex-shrink: 0;
+
+
+}
+.message{
+    font-size: 20px;
+    flex-grow: 1;
+}
